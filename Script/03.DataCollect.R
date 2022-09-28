@@ -5,13 +5,13 @@
   
 #---# [1단계: 작업폴더 설정하기]
 
-# install.packages("rstudioapi")   # rstudioapi 설치                         
+install.packages("rstudioapi")   # rstudioapi 설치                         
 setwd(dirname(rstudioapi::getSourceEditorContext()$path)) # 작업폴더 설정
 getwd()   # 확인
 
 #---# [2단계: 수집 대상지역 설정]
 
-loc <- read.csv("./01_code/sigun_code/sigun_code.csv", fileEncoding="UTF-8")  #  지역코드
+loc <- read.csv("../Data/sigun_code/sigun_code.csv", fileEncoding="UTF-8")  #  지역코드
 loc$code <- as.character(loc$code) # 행정구역명 문자 변환     
 head(loc, 2) # 확인
 
