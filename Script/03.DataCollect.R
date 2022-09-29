@@ -23,6 +23,7 @@ datelist <- seq(from = as.Date('2021-01-01'), # 시작
 datelist <- format(datelist, format = '%Y%m') # 형식변환(YYYY-MM-DD => YYYYMM) 
 datelist[1:3]          # 확인
 
+
 #---# [4단계: 인증키 입력하기]
 
 service_key <- ""  # 인증키 입력
