@@ -29,6 +29,7 @@ datelist[1:3]          # 확인
 service_key <- "3RqRAND48EACwSEs8nu0gJRYQs8UmEg%2BRLxpeTMrF%2FpBerj9jHpJBfZ%2FTQiUq0URScOS0tVHVLRBv3y2I%2BfZeg%3D%3D"  # 인증키 입력
 
 
+
 #--------------------------------------------------
 # 3-2 요청목록 생성: 자료를 어떻게 요청할까?
 #--------------------------------------------------
