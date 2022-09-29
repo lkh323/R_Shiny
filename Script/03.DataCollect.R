@@ -26,7 +26,7 @@ datelist[1:3]          # 확인
 
 #---# [4단계: 인증키 입력하기]
 
-service_key <- ""  # 인증키 입력
+service_key <- "3RqRAND48EACwSEs8nu0gJRYQs8UmEg%2BRLxpeTMrF%2FpBerj9jHpJBfZ%2FTQiUq0URScOS0tVHVLRBv3y2I%2BfZeg%3D%3D"  # 인증키 입력
 
 
 #--------------------------------------------------
